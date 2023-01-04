@@ -1,0 +1,44 @@
+.div1{
+	width: 100%;
+	text-align: center;
+	float: left;
+	font-size: 3vh;
+	color: white;
+}
+
+.div1i{
+	text-align: center;
+	float: center;
+	background-color: lime;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	border-radius: 2vh;
+}
+
+.div2i{
+	margin-top: 2vh;
+	text-align: center;
+	float: center;
+	background-color: lime;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	border-radius: 2vh;
+}
+
+.serhat_img{
+	width: 65%;
+	margin-left: 17.5%;
+	height: 30vh;
+	float: left;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	animation-duration: 0.5s;
+}
+
+@keyframes tokat {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(6px) }
+ 50% { transform: translateX(-6px) }
+ 75% { transform: translateX(6px) }
+ 100% { transform: translateX(0) }
+}
