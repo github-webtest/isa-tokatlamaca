@@ -2,9 +2,9 @@ var skor = 0;
 var tokats = Math.floor(Math.random() * 3 + 1);
 
 function tokat() {
-	document.getElementById("serhat_img").style.animationName = "tokat";
+	document.getElementById("isa_img").style.animationName = "tokat";
 	skor++;
-	document.getElementById("serhat_img").onclick = hello;
+	document.getElementById("isa_img").onclick = hello;
 	if (tokats == 1){
 		document.getElementById("tokat1").play();
 		tokats = Math.floor(Math.random() * 3 + 1);
@@ -16,8 +16,8 @@ function tokat() {
 		tokats = Math.floor(Math.random() * 3 + 1);
 	}
 	setTimeout(function(){
-		document.getElementById("serhat_img").style.animationName = "";
-		document.getElementById("serhat_img").onclick = tokat;
+		document.getElementById("isa_img").style.animationName = "";
+		document.getElementById("isa_img").onclick = tokat;
 	}, 500);
 }
 
